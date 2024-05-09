@@ -12,4 +12,5 @@
             <i class="fa-sharp fa-solid fa-bag-shopping"></i>
         </div>
     </div>
+    <h1>{{ Route::currentRouteName() }} </h1>
 </header>

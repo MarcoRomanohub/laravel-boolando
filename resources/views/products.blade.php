@@ -5,7 +5,7 @@
         @foreach ($products as $product)
             <div class="box-product">
                 <div class="first-img">
-                    <img src="{{ $product['frontImage'] }}" alt="{{ $product['name'] }}">
+                    <img src="/img/{{ $product['frontImage'] }} " alt="{{ $product['name'] }}">
                 </div>
                 <div class="marchio"> {{ $product['brand'] }} </div>
                 <h4> {{ $product['name'] }} </h4>
