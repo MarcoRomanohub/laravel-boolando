@@ -16,9 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 })->name('home');
+
 Route::get('/prodotti', function () {
-    return view('products');
+    $products = config('products');
+    return view('products', compact('products'));
 })->name('products');
+
 Route::get('/contatti', function () {
     return view('contacts');
 })->name('contacts');
