@@ -1,6 +1,11 @@
 main {
     padding-top: 100px;
 
+    .container {
+        width: 1400px;
+        display: flex;
+    }
+
     .box-product .left0 {
         position: relative;
         left: 0;
